@@ -1,0 +1,354 @@
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.nav-section {
+background-color: #fff;
+position: fixed;
+top: 0;
+width: 100%;
+border-bottom: 2px solid #132743;
+}
+
+.navbar{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  padding: 16px 16px 3px;
+}
+
+.m-navbar-items {
+  display: none;
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.m-navbar-items a{
+  text-decoration: none;
+  color: #150485;
+  padding: 25px;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 1rem;;
+  line-height: 2.5
+}
+
+
+.navbrand img{
+  width: 35%;
+}
+
+.burger {
+  display: none;
+}
+
+.navbar-items {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-items a {
+  text-decoration: none;
+color: #150485;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+/* Header Starts*/
+.page-1 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.page-1 h1 {
+  width: 50%;
+  color: #150485;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1;
+  margin-top: 100px;
+}
+
+.page-1 p {
+  width: 45%;
+  font-weight: bold;
+  color: #686d76;
+}
+
+.woman {
+  position: absolute;
+  width: 30%;
+  top: 90px;
+  right: 10%;
+  z-index: -1;
+}
+
+.apple {
+  width: 9.5%;
+  cursor: pointer;
+}
+
+.btn-create {
+  background-color: #28df99;
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 20px 0 40px;
+  border-color: #28df99;
+  cursor: pointer;
+}
+
+.btn-create:hover {
+  background-color: #fff;
+  color: #150485;
+  border-color: #150485;
+}
+
+/* Header Ends */
+
+
+/* Section 2 Starts */
+.security {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.security img {
+  width: 70%;
+}
+
+.security-text p, .save-text p, .td-col p, .saver p {
+  color: #686d76;
+  font-weight: bold;
+}
+
+.security-text h2 {
+  color: #150485;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.avatar-small {
+  display: none;
+}
+
+.save-text, .avatar-container {
+  width: 85%;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.save-text h2, .td-col h2, .saver h2 {
+  color: #150485;
+  font-size: 2rem;
+}
+
+.avatar-img {
+  width: 100%;
+}
+
+.td-col {
+  padding: 0 20px;
+  text-align: left;
+  border: 2px solid #e8e8e8;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #fff;
+}
+
+.td-col h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.saver {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.media-saver {
+  display: none;
+}
+
+.saver img {
+  width: 350px;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.col-h2 {
+  text-align: center;
+}
+
+.td-col-2 {
+  padding: 0 20px;
+}
+
+.testimonials {
+  background-color: #150485;
+  margin: 50px 0;
+}
+
+.testimonials-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.testimonials h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.story-img {
+  border-radius: 80%;
+  width: 100%;
+  margin: 0 0 150px;
+  padding: 2%;
+}
+
+.td-story {
+  padding: 30px;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+  width: 80%;
+  margin: 40px;
+}
+
+.td-story h3 {
+  font-size: 1.5rem;
+  color: #3d7ea6;
+  font-weight: bold;
+}
+
+.td-story p {
+  color: #686d76;
+  font-weight: bold;
+}
+
+.td-story h4 {
+  color: #28df99;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.left {
+  width: 70%;
+  margin: 50px 0;
+}
+
+.right {
+  width: 70%;
+  margin: 50px 0 50px 300px;
+}
+
+.last {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.last h2 {
+  color: #150485;
+  font-size: 2rem;
+}
+
+.last del {
+  text-decoration-style: double;
+}
+
+.last p {
+  color: #686d76;
+  font-weight: bold;
+}
+
+.story-button {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story-icon {
+  background-color: #28df99;
+  padding: 1% 2%;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: ease-in-out ;
+  transition-delay: 100ms;
+  margin: 20px 0 100px;
+
+}
+
+.story-icon:hover {
+  background-color: #fff;
+  color: #150485;
+}
+
+.new-icon {
+  background-color: #150485;
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 20px 0 40px;
+  cursor: pointer;
+  transition: ease-in-out ;
+  transition-delay: 300ms;
+}
+
+.new-icon:hover {
+  background-color: #132743;
+}
+
+.media-footer{
+  display: none;
+}
+
+.footer-end {
+width: 85%;
+margin: 0 auto;
+}
+
+.pig-logo{
+  width: 18%;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #686d76;
+}
+
+.footer-left span {
+  color: #000;
+}
+
+.footer-end a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.footer-end h3 {
+  color: #686d76;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.company img {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
